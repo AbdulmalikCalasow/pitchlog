@@ -1,0 +1,5 @@
+-- Store the soccer leagues.
+CREATE TABLE leagues (
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
